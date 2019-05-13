@@ -1,9 +1,9 @@
 {
-  "name": "@ali/cordova-plugin-local-notification",
+  "name": "cordova-plugin-local-notification",
   "version": "0.9.3",
   "description": "Schedules and queries for local notifications",
   "cordova": {
-    "id": "@ali/cordova-plugin-local-notification",
+    "id": "cordova-plugin-local-notification",
     "platforms": [
       "android",
       "ios",
@@ -13,6 +13,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Steffaan/cordova-plugin-local-notifications.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.arcticleaf.io"
   },
   "keywords": [
     "appplant",
